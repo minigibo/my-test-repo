@@ -1,0 +1,32 @@
+@use "./variables" as *;
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(50vh - 30px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+
+    .buttons{
+        display: inline-block;
+        background-color: $tertiary-color;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin-right: 10px;
+
+        &:hover{
+            background-color: $primary-color;
+            color: $tertiary-color;
+        }
+    }
+}
+
+
+
+header{
+    font-size: 100px;
+}

@@ -1,0 +1,15 @@
+@use "./variables" as *;
+@use "./main";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+}
+
+.image{
+    width: 100%;
+    height: 50vh;
+}
+
